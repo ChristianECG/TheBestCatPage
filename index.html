@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>The Best Cat Page!</title>
-		<link rel="icon" href="./icon.svg" />
-		<link rel="stylesheet" href="./style.css" />
-		<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-	</head>
-	<body>
-		<header>
-			<h1>Welcome to the best collaborative cat page!</h1>
-			<p>
-				We want to make sure that you have the best experience possible!
-			</p>
-			<p>
-				If you want to contribute, you can do it
-				<a href="https://github.com/ChristianECG/TheBestCatPage">here</a
-				>.
-			</p>
-			<p>We are beginning friendly!</p>
-		</header>
-		<main id="app">
-			<figure v-for="cat in printableCats">
-				<img :src="cat.url" :alt="cat.name" />
-				<figcaption>{{cat.username}}</figcaption>
-			</figure>
-		</main>
-		<footer>With ❤️ from Mexico and the Internet, to the World 🌎</footer>
-	</body>
-	<script src="./script.js"></script>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>The Best Cat Page!</title>
+	<link rel="icon" href="./icon.svg" />
+	<link rel="stylesheet" href="./style.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to the best collaborative cat page!</h1>
+		<p>
+			We want to make sure that you have the best experience possible!
+		</p>
+		<p>
+			If you want to contribute, you can do it
+			<a href="https://github.com/ChristianECG/TheBestCatPage">here</a>.
+		</p>
+		<p>We are beginning friendly!</p>
+	</header>
+	<main id="app">
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col" v-for="cat in printableCats">
+				<div class="card">
+					<img class="card-img-top" :src="cat.url" :alt="cat.name" />
+					<div class="card-body">
+						<h5 class="card-title">{{cat.username}}</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>With ❤️ from Mexico and the Internet, to the World 🌎</footer>
+</body>
+<script src="./script.js"></script>
+
 </html>
