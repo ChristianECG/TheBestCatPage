@@ -40,7 +40,7 @@ main {
 footer {
   height: 10vh;
   width: 100%;
-  /* background-color: rgb(127, 229, 255); */
+  background-color: #abcdef;
   display: flex;
   align-items: center;
   justify-content: center;
