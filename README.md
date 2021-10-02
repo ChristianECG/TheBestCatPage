@@ -12,7 +12,7 @@ Si alguien quiere agregar o mejorar algo, puede hacerlo directamente en este rep
 
 ### Licencia
 
-Horarios se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 # English Translation
 
