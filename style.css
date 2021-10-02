@@ -31,6 +31,11 @@ main {
   align-items: center;
 }
 
+.card:hover {
+  box-shadow: 9px 5px 106px -8px rgba(0, 0, 0, 0.36);
+  transition: all 500ms linear;
+}
+
 .card-img-top {
   object-fit: cover;
   width: 100%;
