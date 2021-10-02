@@ -20,13 +20,12 @@ A first-timer friendly repository for contributing cat gifs.
 
 ### Live version
 
-[https://christianecg.github.io/TheBestCatPage/-lex.europa.eu(https://christianecg.github.io/TheBestCatPage/)
+[https://christianecg.github.io/TheBestCatPage/](https://christianecg.github.io/TheBestCatPage/)
 
 ### Contribute
 
-If someone wants to add or improve something, they can do it directly in this repository: [TheBestCatPage] (https://github.com/ChristianECG/TheBestCatPage)
+If someone wants to add or improve something, they can do it directly in this repository: [TheBestCatPage](https://github.com/ChristianECG/TheBestCatPage)
 
 ### License
 
-Released under the [MIT] license (https://opensource.org/licenses/MIT).
-
+Released under the [MIT](https://opensource.org/licenses/MIT) license.
