@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  height: 20vh;
+  min-height: 20vh;
   width: 80%;
   margin: auto;
   /* background-color: rgb(127, 229, 255); */
