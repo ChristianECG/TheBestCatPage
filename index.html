@@ -30,7 +30,7 @@
           <div class="card">
             <img class="card-img-top" :src="cat.url" :alt="cat.name" />
             <div class="card-body">
-              <h5 class="card-title"><b>By</b> {{cat.username}}</h5>
+              <h5 class="card-title"><b>By</b> <a :href="`https://github.com/${cat.username}`">{{cat.username}}</a></h5>
             </div>
           </div>
         </div>
