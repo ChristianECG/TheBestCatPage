@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Best Cat Page!</title>
+    <link rel="icon" href="./icon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>The Best Cat Page!</title>
-	<link rel="icon" href="./icon.svg" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="./style.css" />
-	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-</head>
-
-<body>
-	<header>
-		<h1>Welcome to the best collaborative cat page!</h1>
-		<p>
-			We want to make sure that you have the best experience possible!
-		</p>
-		<p>
-			If you want to contribute, you can do it
-			<a href="https://github.com/ChristianECG/TheBestCatPage">here</a>.
-		</p>
-		<p>We are beginning friendly!</p>
-	</header>
-	<main id="app">
-		<div class="row row-cols-1 row-cols-md-3 g-4">
-			<div class="col" v-for="cat in printableCats">
-				<div class="card">
-					<img class="card-img-top" :src="cat.url" :alt="cat.name" />
-					<div class="card-body">
-						<h5 class="card-title"><b>By</b> {{cat.username}}</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-		<path fill="#abcdef" fill-opacity="1"
-			d="M0,224L40,234.7C80,245,160,267,240,261.3C320,256,400,224,480,224C560,224,640,256,720,266.7C800,277,880,267,960,266.7C1040,267,1120,277,1200,282.7C1280,288,1360,288,1400,288L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-		</path>
-	</svg>
-	<footer>
-		With ❤️ from Mexico and the Internet, to the World 🌎
-	</footer>
-</body>
-<script src="./script.js"></script>
-
+  <body>
+    <header>
+      <h1>Welcome to the best collaborative cat page!</h1>
+      <p>We want to make sure that you have the best experience possible!</p>
+      <p>
+        If you want to contribute, you can do it
+        <a href="https://github.com/ChristianECG/TheBestCatPage">here</a>.
+      </p>
+      <p>We are beginning friendly!</p>
+    </header>
+    <main id="app">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" v-for="cat in printableCats">
+          <div class="card">
+            <img class="card-img-top" :src="cat.url" :alt="cat.name" />
+            <div class="card-body">
+              <h5 class="card-title"><b>By</b> {{cat.username}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <svg
+      height="100%"
+      width="100%"
+      id="svg"
+      viewBox="0 0 1440 400"
+      xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150"
+    >
+      <path
+        d="M 0,400 C 0,400 0,133 0,133 C 154.2666666666667,117.26666666666667 308.5333333333334,101.53333333333333 465,107 C 621.4666666666666,112.46666666666667 780.1333333333334,139.13333333333333 943,147 C 1105.8666666666666,154.86666666666667 1272.9333333333334,143.93333333333334 1440,133 C 1440,133 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#22a6f1"
+      ></path>
+      <path
+        d="M 0,400 C 0,400 0,266 0,266 C 153.33333333333337,266.5333333333333 306.66666666666674,267.06666666666666 456,261 C 605.3333333333333,254.93333333333334 750.6666666666665,242.26666666666668 914,242 C 1077.3333333333335,241.73333333333332 1258.6666666666667,253.86666666666667 1440,266 C 1440,266 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#0084cfff"
+      ></path>
+    </svg>
+    <footer>With ❤️ from Mexico and the Internet, to the World 🌎</footer>
+  </body>
+  <script src="./script.js"></script>
 </html>
