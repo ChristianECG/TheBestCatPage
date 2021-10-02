@@ -38,11 +38,12 @@ main {
 }
 
 footer {
-  height: 10vh;
   width: 100%;
-  background-color: #abcdef;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #0084cf;
+  padding-bottom: 3rem;
+  color: #ffff;
 }
