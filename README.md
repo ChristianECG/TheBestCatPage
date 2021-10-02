@@ -13,3 +13,20 @@ Si alguien quiere agregar o mejorar algo, puede hacerlo directamente en este rep
 ### Licencia
 
 Horarios se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+# English Translation
+
+A first-timer friendly repository for contributing cat gifs.
+
+### Live version
+
+[https://christianecg.github.io/TheBestCatPage/-lex.europa.eu(https://christianecg.github.io/TheBestCatPage/)
+
+### Contribute
+
+If someone wants to add or improve something, they can do it directly in this repository: [TheBestCatPage] (https://github.com/ChristianECG/TheBestCatPage)
+
+### License
+
+Released under the [MIT] license (https://opensource.org/licenses/MIT).
+
