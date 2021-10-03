@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
 
+html::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 10px;
+  border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#ff5e00),
+									   to(#ddc433),
+									   color-stop(.6,#584b3c))
+}
+
+html::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #ffecd1;
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-button {
+  background: rgb(255, 146, 3);
+  height: 15px;
+  border-radius: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +45,13 @@ body {
 }
 
 header {
-  height: 20vh;
+  min-height: 20vh;
   width: 80%;
   margin: auto;
   /* background-color: rgb(127, 229, 255); */
+}
+h1{
+  color: white;
 }
 
 main {
@@ -25,16 +60,38 @@ main {
   padding-top: 2rem;
 }
 
+a {
+  color: #1381C7;
+  text-decoration: none;
+}
+
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.card:hover {
+  box-shadow: 9px 5px 106px -8px rgba(0, 0, 0, 0.36);
+  transition: all 500ms linear;
+  transform: scale(1.05);
+}
+
 .card-img-top {
   object-fit: cover;
   width: 100%;
   height: 50vh;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
 }
 
 footer {
@@ -47,3 +104,4 @@ footer {
   padding-bottom: 3rem;
   color: #ffff;
 }
+
