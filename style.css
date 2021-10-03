@@ -18,6 +18,9 @@ header {
   margin: auto;
   /* background-color: rgb(127, 229, 255); */
 }
+h1{
+  color: white;
+}
 
 main {
   width: 80%;
@@ -68,3 +71,4 @@ footer {
   padding-bottom: 3rem;
   color: #ffff;
 }
+
