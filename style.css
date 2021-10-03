@@ -42,6 +42,17 @@ main {
   height: 50vh;
 }
 
+.user-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
+}
+
 footer {
   width: 100%;
   display: flex;
