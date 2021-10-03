@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
 
+html::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 10px;
+  border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#ff5e00),
+									   to(#ddc433),
+									   color-stop(.6,#584b3c))
+}
+
+html::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #ffecd1;
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-button {
+  background: rgb(255, 146, 3);
+  height: 15px;
+  border-radius: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
