@@ -50,6 +50,7 @@ header {
   margin: auto;
   /* background-color: rgb(127, 229, 255); */
 }
+
 h1{
   color: white;
 }
@@ -75,6 +76,11 @@ a {
   box-shadow: 9px 5px 106px -8px rgba(0, 0, 0, 0.36);
   transition: all 500ms linear;
   transform: scale(1.05);
+  background-color: #0C4F6C ;
+}
+
+.card:hover a{
+  color: #fff;
 }
 
 .card-img-top {
